@@ -1,5 +1,5 @@
 # Alien Space Game
-
+<img width="1661" height="1280" alt="image" src="https://github.com/user-attachments/assets/91271951-0fff-416b-b3df-92bf7f7fae55" />
 ## Desolate Scavenger: Final Flight
 
 A thrilling 3D space flight simulation game built with Three.js.
