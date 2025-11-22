@@ -1,42 +1,47 @@
 # Alien Space Game
 
-## Echoes of the Unknown: Scavenger Class
+## Desolate Scavenger: Final Flight
 
-A thrilling 3D web-based sci-fi adventure game built with Three.js.
+A thrilling 3D space flight simulation game built with Three.js.
 
 ### Description
 
-In "Echoes of the Unknown: Scavenger Class," players take control of a spaceship navigating over procedurally generated alien terrains filled with ancient ruins. Your mission: collect glowing artifacts and hidden caches to earn credits, while dodging deadly mines and managing your ship's resources.
+In "Desolate Scavenger: Final Flight," players pilot a futuristic ship across a desolate alien landscape, scanning for energy signatures and collecting valuable artifacts such as data caches and ancient relics. Navigate procedural terrain, complete missions, upgrade your ship, and manage resources in this atmospheric sci-fi adventure.
 
 ### Key Features
 
-- **Procedural Generation**: Explore unique alien landscapes with ruins every time you play.
-- **Resource Management**: Balance energy, shields, and hull integrity to survive.
-- **Ship Upgrades**: Enhance your vessel with improved thrusters, radar, efficiency, and shields using earned credits.
-- **AI-Generated Loot**: Discover artifacts with dynamically generated descriptions.
-- **Immersive HUD**: Glassmorphism-style interface displaying mission logs, system status, and more.
+- **3D Flight Mechanics**: Realistic ship controls with pitch, roll, yaw, and throttle. Boost mode for high-speed travel.
+- **Procedural World**: Infinite terrain with hills, canyons, and scattered ancient ruins. Atmospheric fog and dynamic lighting.
+- **Mission System**: Auto-generating missions to locate and collect artifacts (data caches and ancient relics) with varying rarity.
+- **Ship Upgrades**: Access the Nanofabricator shop to purchase upgrades like Ion Thruster, Deep Scan AI, Fusion Cell, and Void Plating.
+- **Resource Management**: Track credits, energy reserves, velocity, and altitude.
+- **AI Integration**: Ship AI provides logs and mission updates. Optional Gemini API for dynamic loot descriptions.
+- **Immersive HUD**: Glass-panel interface with mission log, credits, flight stats, and controls.
 
 ### How to Play
 
 1. Open `Game.html` in any modern web browser.
-2. Use keyboard controls to pilot your ship (WASD for movement, mouse for look).
-3. Collect artifacts and caches while avoiding mines.
-4. Upgrade your ship at designated points to improve performance.
-5. Survive as long as possible and maximize your score!
+2. Use controls to fly your ship and locate artifact beacons.
+3. Collect artifacts to complete missions and earn credits.
+4. Visit the Nanofabricator (Tab key) to upgrade your ship.
+5. Manage energy for boosts and avoid terrain collisions.
 
 ### Requirements
 
-- Modern web browser with JavaScript enabled (Chrome, Firefox, Safari, Edge recommended).
-- No additional installations required – it's a self-contained HTML file.
+- Modern web browser with WebGL support (Chrome, Firefox, Safari, Edge recommended).
+- Optional: Gemini API key for enhanced loot descriptions (set in code).
 
 ### Controls
 
-- **Movement**: WASD keys
-- **Look**: Mouse
-- **Interact**: Spacebar (for collecting items/upgrades)
+- **W / S**: Pitch up / down
+- **A / D**: Roll left / right
+- **Q / E**: Yaw left / right
+- **Shift**: Throttle up (hold for boost)
+- **Ctrl**: Throttle down
+- **Tab**: Open/close Nanofabricator upgrades shop
 
 ### Credits
 
 Developed using Three.js for 3D rendering.
 
-Enjoy exploring the unknown!
+Enjoy scavenging the desolate unknown!
